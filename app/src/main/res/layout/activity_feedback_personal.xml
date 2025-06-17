@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F7F1FF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title="Agendamentos"
+        android:titleTextColor="@android:color/white" />
+
+
+    <TextView
+        android:text="Enviar Feedback"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextNomeAluno"
+        android:hint="Nome do aluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu feedback"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLines="5"
+        android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:id="@+id/btnEnviarFeedback"
+        android:text="Enviar"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#7B5DE3"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

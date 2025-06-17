@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F5FF"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strauss APP"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#6C4AB6"
+        android:layout_marginBottom="32dp" />
+
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Selecione a data"
+        android:focusable="false"
+        android:inputType="none"
+        android:importantForAutofill="no"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:textColorHint="#888888"
+        android:textColor="#000000" />
+
+
+    <Spinner
+        android:id="@+id/spinnerHorarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agendar"
+        android:layout_marginTop="24dp"
+        android:textColor="#FFFFFF"
+        android:background="#6C4AB6" />
+
+    <Button
+        android:id="@+id/verAgendamentosBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Agendamentos"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:background="#1E1E5A" />
+
+    <Button
+        android:id="@+id/btnVoltarMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar ao Menu"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="32dp"
+        />
+
+
+</LinearLayout>
+
+
